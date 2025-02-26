@@ -9,7 +9,7 @@ const NAV = () => {
   return (
     <>
     <div className="navbar">
-    <div className="logo">Dineshkumar A</div>
+    <div className="logo">Dinesh Store</div>
     <Link href="/" className={pathname==='/' ? 'active':''} >Home</Link>
     <Link href="/product" className={pathname==='/product' ? 'active':''}>Product</Link>
     <Link href="/contact" className={pathname==='/contact' ? 'active':''}>Contact</Link>
